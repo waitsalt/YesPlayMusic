@@ -4,11 +4,11 @@ env:
   YARN_INSTALL_NOPT: yarn add --ignore-platform --ignore-optional
 
 on:
-  push:
-    branches:
-      - master
-    tags:
-      - v*
+  # push:
+  #   branches:
+  #     - master
+  #   tags:
+  #     - v*
   workflow_dispatch:
 
 jobs:
